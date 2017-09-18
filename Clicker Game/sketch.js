@@ -10,5 +10,5 @@ function draw() {
     rect(25, 25, 50, 50);
 
   print(mouseIsPressed);
-  }
+
 }
