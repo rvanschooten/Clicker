@@ -3,11 +3,11 @@ createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-  ellipse(width/2, height/2, 80, 100);
+  background(255)
   if (mouseIsPressed)
-    ellipse(50, 50, 50, 50);
+    ellipse(width/2, height/2, 100, 100);
   else
-    rect(25, 25, 50, 50);
+    rect(width/2-50, height/2-50, 100, 100);
 
   print(mouseIsPressed);
 
